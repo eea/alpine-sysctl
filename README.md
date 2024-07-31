@@ -1,4 +1,3 @@
-[![](https://images.microbadger.com/badges/image/rawmind/alpine-sysctl.svg)](https://microbadger.com/images/rawmind/alpine-sysctl "Get your own image badge on microbadger.com")
 
 alpine-sysctl
 =================
@@ -8,13 +7,13 @@ A base image to check and set hosts sysctl parameter.
 ## Build
 
 ```
-docker build -t rawmind/alpine-sysctl:<version> .
+docker build -t NAME  .
 ```
 
 ## Versions
 
-- `0.2-1` [(Dockerfile)](https://github.com/rawmind0/alpine-sysctl/blob/0.2-1/Dockerfile).
-- `0.1-1` [(Dockerfile)](https://github.com/rawmind0/alpine-sysctl/blob/0.1-1/Dockerfile).
+- `latest` [(Dockerfile)](https://github.com/eea/alpine-sysctl/blob/master/Dockerfile).
+- `0.3` [(Dockerfile)](https://github.com/eea/alpine-sysctl/blob/0.3/Dockerfile).
 
 ## Env variables
 
@@ -32,5 +31,5 @@ docker run -t \
   -e "SYSCTL_KEY=KEY" \
   -e "SYSCTL_VALUE=VALUE" \
   --privileged \
-  rawmind/alpine-sysctl:<version> .
+  eea/alpine-sysctl:<version> .
 ```
