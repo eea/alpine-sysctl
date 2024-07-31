@@ -4,6 +4,8 @@ alpine-sysctl
 
 A base image to check and set hosts sysctl parameter. 
 
+**Alpine** - **3.20**
+
 ## Build
 
 ```
@@ -12,8 +14,8 @@ docker build -t NAME  .
 
 ## Versions
 
-- `latest` [(Dockerfile)](https://github.com/eea/alpine-sysctl/blob/master/Dockerfile).
-- `0.3` [(Dockerfile)](https://github.com/eea/alpine-sysctl/blob/0.3/Dockerfile).
+- `latest` [(Dockerfile)](https://github.com/eea/alpine-sysctl/blob/master/Dockerfile) - Alpine: **3.20**
+- `0.3` [(Dockerfile)](https://github.com/eea/alpine-sysctl/blob/0.3/Dockerfile) - Alpine: **3.20**
 
 ## Env variables
 
